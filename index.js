@@ -10,7 +10,7 @@ client.commands = new Discord.Collection();
 client.once('ready', () => {
     console.log("GooseBot is online");
 
-    client.user.setActivity('v-help');
+    client.user.setActivity('-help');
 });
 
 // on message
