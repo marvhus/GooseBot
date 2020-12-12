@@ -43,9 +43,9 @@ client.on('message', message => {
             .setColor('#FF3F76')
             .setTitle('HEELLPP')
             .addFields(
-                {name: 'v-creator', value: 'The bot creator'},
-                {name: 'v-ping', value: 'Pong!'},
-                {name: 'v-help', value: 'well ....... you know'}
+                {name: prefix + 'creator', value: 'The bot creator'},
+                {name: prefix + 'ping', value: 'Pong!'},
+                {name: prefix + 'help', value: 'well ....... you know'}
             )
             .setDescription('Requested by: ' + message.author.username );
 
